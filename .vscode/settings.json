@@ -1,0 +1,17 @@
+{
+  "python.defaultInterpreterPath": "C:\\OSGEO4~1\\apps\\Python37\\python.exe",
+  "terminal.integrated.env.windows": {
+    // Path
+    "PATH": "C:\\OSGEO4~1\\apps\\Python37;C:\\OSGEO4~1\\apps\\Python37\\Scripts;C:\\OSGEO4~1\\apps\\Python27\\Scripts;C:\\OSGEO4~1\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBem;C:\\Users\\Rob\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs",
+    // Python
+    "PYTHONHOME": "C:\\OSGEO4~1\\apps\\Python37",
+    "PYTHONPATH": "C:\\OSGEO4~1\\apps\\Python37;C:\\OSGEO4~1\\apps\\Python37\\Scripts;%PYTHONPATH%",
+    // GDAL
+    "GDAL_DATA": "C:\\OSGEO4~1\\share\\gdal",
+    "GDAL_DRIVER_PATH": "C:\\OSGEO4~1\\bin\\gdalplugins",
+    // GeoTIFF
+    "GEOTIFF_CSV": "C:\\OSGEO4~1\\share\\epsg_csv",
+    //PROJ
+    "PROJ_LIB": "C:\\OSGEO4~1\\share\\proj"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run PGCOPY",
+      "type": "python",
+      "request": "launch",
+      "program": "se_upload_objects.py",
+      "args": ["pgcopy", ".\\Scherpenzeel_Change_types_BAG.shp"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run UPLOAD",
+      "type": "python",
+      "request": "launch",
+      "program": "se_upload_objects.py",
+      "args": [".\\Scherpenzeel_Change_types_BAG.shp"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
